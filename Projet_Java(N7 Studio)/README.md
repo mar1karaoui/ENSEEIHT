@@ -140,6 +140,7 @@ User manual will be available at the end of the project. Coming soon...
 ## Authors
 
 Karaoui Marwane
+
 Truong Nell  
 Mostfa Sami  
 Le Nulzec Leandre  
