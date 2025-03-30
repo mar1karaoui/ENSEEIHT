@@ -1,0 +1,31 @@
+Projet_IDM/Projet_Gestion_Stock/.metadata/
+
+# Fichiers générés
+*.class
+*.log
+*.lock
+*.tmp
+
+# Binaires
+/bin/
+/build/
+
+# Eclipse
+.metadata/
+*.classpath
+*.project
+.settings/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Autres fichiers générés
+*.xmi
+*.aird
+*.genmodel
+*.tokens
+*.g
+*.xtendbin
+*.java._trace
+*.launch
