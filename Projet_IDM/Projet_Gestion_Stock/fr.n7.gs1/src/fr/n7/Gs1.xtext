@@ -1,0 +1,116 @@
+grammar fr.n7.Gs1 with org.eclipse.xtext.common.Terminals
+
+generate gs1 "http://www.n7.fr/Gs1"
+
+
+
+Model:
+
+applications+=Application*;
+
+
+Application:
+
+'Application' '{'
+
+(tables+=Table)*
+
+'}';
+
+
+Table:
+
+'Table' name=ID '{'
+
+'id' '=' id=INT
+
+'Nom' '=' Nom=STRING
+
+(colonnes+=Colonne)*
+
+'}';
+
+
+Colonne:
+
+Colonne_derivee | Colonne_referencee | Colonnesimple;
+
+
+Colonne_derivee:
+
+'Colonne_derivee' name=ID '{'
+
+'id' '=' id=INT
+
+'Nom' '=' Nom=STRING
+
+'expression' '=' expression=Expression
+
+'}';
+
+
+Colonne_referencee:
+
+'Colonne_referencee' name=ID '{'
+
+'id' '=' id=INT
+
+'Nom' '=' Nom=STRING
+
+'table' '=' table=[Table]
+
+'colonne' '=' colonne=[Colonne]
+
+'}';
+
+
+Colonnesimple:
+
+'Colonnesimple' name=ID '{'
+
+'id' '=' id=INT
+
+'Nom' '=' Nom=STRING
+
+'}';
+
+
+Expression:
+
+ExpressionBinaire | AccesVariable;
+
+
+ExpressionBinaire:
+
+'ExpressionBinaire' name=ID '{'
+
+'operandeG' '=' operandeG=Expression
+
+'operateur' '=' operateur=Operateur
+
+'operandeD' '=' operandeD=Expression
+
+'}';
+
+
+AccesVariable:
+
+'AccesVariable' name=ID '{'
+
+'colonne' '=' colonne=[Colonne]
+
+'}';
+
+
+Operateur:
+
+'Operateur' '{'
+
+'type' '=' type=Operations
+
+'}';
+
+
+enum Operations:
+
+addition='addition' | soustraction='soustraction' | multiplication='multiplication' | division='division';

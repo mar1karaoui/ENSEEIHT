@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gstock:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gstock="http://gstock">
+  <tables id="1" Nom="Produits">
+    <colonnes xsi:type="gstock:Colonnesimple" id="11" Nom="Nom" Type="String"/>
+    <colonnes xsi:type="gstock:Colonne_referencee" id="12" Nom="produits" Type="String" table="1" colonne="11"/>
+    <colonnes xsi:type="gstock:Colonnesimple" id="13" Nom="Prix" Type="Int"/>
+  </tables>
+</gstock:Application>

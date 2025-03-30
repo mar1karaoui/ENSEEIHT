@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated GStock -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="gstock.presentation.GstockModelWizardID"
+            name="%_UI_GstockModelWizard_label"
+            class="gstock.presentation.GstockModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/GstockModelFile.gif">
+         <description>%_UI_GstockModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated GStock -->
+      <editor
+            id="gstock.presentation.GstockEditorID"
+            name="%_UI_GstockEditor_label"
+            icon="icons/full/obj16/GstockModelFile.gif"
+            extensions="gstock"
+            class="gstock.presentation.GstockEditor"
+            contributorClass="gstock.presentation.GstockActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

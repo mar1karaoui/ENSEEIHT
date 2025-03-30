@@ -1,0 +1,11 @@
+TableProduits
+ID,Produit,Prix_Unitaire,Quantite_stock
+001,ProduitA,10,100
+002,ProduitB,20,150
+003,ProduitC,15,200
+
+Tablecommandes
+ID,nom_Produit-commande,Prixproduit,Quantite_du_produit_commande
+001,ProduitA,10,2
+002,ProduitB,20,3
+003,ProduitC,15,11

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:gstock="http://gstock" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_YQ3JILs8Ee-r2e3YoEwuOw" selectedViews="_UTLj4LtCEe-r2e3YoEwuOw" version="15.2.0.202303281325">
+    <semanticResources>tables.gstock</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_UTLj4LtCEe-r2e3YoEwuOw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_E49fQrwLEe-RZ4dM7AoSwQ" name="new ApplicationDiagram" repPath="#_E49fQLwLEe-RZ4dM7AoSwQ" changeId="1734414503911">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']"/>
+        <target xmi:type="gstock:Application" href="tables.gstock#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_E49fQLwLEe-RZ4dM7AoSwQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_E49fRLwLEe-RZ4dM7AoSwQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_E49fRbwLEe-RZ4dM7AoSwQ" type="Sirius" element="_E49fQLwLEe-RZ4dM7AoSwQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_vRhYkLwREe-RZ4dM7AoSwQ" type="2002" element="_vRBpULwREe-RZ4dM7AoSwQ">
+          <children xmi:type="notation:Node" xmi:id="_vRhYk7wREe-RZ4dM7AoSwQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_vRh_oLwREe-RZ4dM7AoSwQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_cdbyALwSEe-RZ4dM7AoSwQ" type="3007" element="_cc0uArwSEe-RZ4dM7AoSwQ">
+              <children xmi:type="notation:Node" xmi:id="_cdcZELwSEe-RZ4dM7AoSwQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_cdcZEbwSEe-RZ4dM7AoSwQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_kSg34LwSEe-RZ4dM7AoSwQ" type="3003" element="_kR_6g7wSEe-RZ4dM7AoSwQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_kSg34bwSEe-RZ4dM7AoSwQ" fontName="Ubuntu"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kSg34rwSEe-RZ4dM7AoSwQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_cdbyAbwSEe-RZ4dM7AoSwQ" fontName="Ubuntu" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cdbyArwSEe-RZ4dM7AoSwQ" x="30" y="64" width="71" height="106"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_cdcZErwSEe-RZ4dM7AoSwQ" type="3007" element="_cc1VEbwSEe-RZ4dM7AoSwQ">
+              <children xmi:type="notation:Node" xmi:id="_cdcZFbwSEe-RZ4dM7AoSwQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_cdcZFrwSEe-RZ4dM7AoSwQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_kSg347wSEe-RZ4dM7AoSwQ" type="3003" element="_kSAhkrwSEe-RZ4dM7AoSwQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_kSg35LwSEe-RZ4dM7AoSwQ" fontName="Ubuntu"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kSg35bwSEe-RZ4dM7AoSwQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_cdcZE7wSEe-RZ4dM7AoSwQ" fontName="Ubuntu" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cdcZFLwSEe-RZ4dM7AoSwQ" x="130" y="64" width="66" height="106"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0JohkLwSEe-RZ4dM7AoSwQ" type="3007" element="_0JJZZbwSEe-RZ4dM7AoSwQ">
+              <children xmi:type="notation:Node" xmi:id="_0JpIoLwSEe-RZ4dM7AoSwQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_0JpIobwSEe-RZ4dM7AoSwQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_3Gla4LwSEe-RZ4dM7AoSwQ" type="3003" element="_3GEdhrwSEe-RZ4dM7AoSwQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_3Gla4bwSEe-RZ4dM7AoSwQ" fontName="Ubuntu"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Gla4rwSEe-RZ4dM7AoSwQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0JohkbwSEe-RZ4dM7AoSwQ" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0JohkrwSEe-RZ4dM7AoSwQ" x="335" y="69" width="56" height="101"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_UBiuULwTEe-RZ4dM7AoSwQ" type="3008" element="_UA51IrwTEe-RZ4dM7AoSwQ">
+              <children xmi:type="notation:Node" xmi:id="_UBiuU7wTEe-RZ4dM7AoSwQ" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_UBiuVLwTEe-RZ4dM7AoSwQ" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_j0tIQLwXEe-RZ4dM7AoSwQ" type="3008" element="_j0JupLwXEe-RZ4dM7AoSwQ">
+                  <children xmi:type="notation:Node" xmi:id="_j0tvULwXEe-RZ4dM7AoSwQ" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_j0tvUbwXEe-RZ4dM7AoSwQ" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_0DdZarwYEe-RZ4dM7AoSwQ" type="3007" element="_0C3jhbwYEe-RZ4dM7AoSwQ">
+                      <children xmi:type="notation:Node" xmi:id="_0DdZbbwYEe-RZ4dM7AoSwQ" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_0DdZbrwYEe-RZ4dM7AoSwQ" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_66s-BrwYEe-RZ4dM7AoSwQ" type="3016" element="_66MnxLwYEe-RZ4dM7AoSwQ">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_66s-B7wYEe-RZ4dM7AoSwQ" fontName="Ubuntu"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_66s-CLwYEe-RZ4dM7AoSwQ"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_0DdZa7wYEe-RZ4dM7AoSwQ" fontName="Ubuntu"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0DdZbLwYEe-RZ4dM7AoSwQ" x="7" y="38" width="76" height="30"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_GZ4-ILwZEe-RZ4dM7AoSwQ" type="3007" element="_GZ3wCLwZEe-RZ4dM7AoSwQ">
+                      <children xmi:type="notation:Node" xmi:id="_GZ4-I7wZEe-RZ4dM7AoSwQ" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_GZ5lMLwZEe-RZ4dM7AoSwQ" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_GZ5lMbwZEe-RZ4dM7AoSwQ" type="3016" element="_GZ3wCbwZEe-RZ4dM7AoSwQ">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_GZ5lMrwZEe-RZ4dM7AoSwQ" fontName="Ubuntu"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GZ5lM7wZEe-RZ4dM7AoSwQ"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_GZ4-IbwZEe-RZ4dM7AoSwQ" fontName="Ubuntu" fontHeight="12"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GZ4-IrwZEe-RZ4dM7AoSwQ" x="-68" y="38" width="56" height="30"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="__Omp4LwdEe-RZ4dM7AoSwQ" type="3007" element="__OEeZrwdEe-RZ4dM7AoSwQ">
+                      <children xmi:type="notation:Node" xmi:id="__Omp47wdEe-RZ4dM7AoSwQ" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="__Omp5LwdEe-RZ4dM7AoSwQ" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_DZrjMLweEe-RZ4dM7AoSwQ" type="3016" element="_DZKl0LweEe-RZ4dM7AoSwQ">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_DZrjMbweEe-RZ4dM7AoSwQ" fontName="Ubuntu"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DZrjMrweEe-RZ4dM7AoSwQ"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="__Omp4bwdEe-RZ4dM7AoSwQ" fontName="Ubuntu"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__Omp4rwdEe-RZ4dM7AoSwQ" x="100" y="34" width="121" height="38"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_j0tvUrwXEe-RZ4dM7AoSwQ"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_j0tvU7wXEe-RZ4dM7AoSwQ"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_j0tIQbwXEe-RZ4dM7AoSwQ" fontName="Ubuntu"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j0tIQrwXEe-RZ4dM7AoSwQ" x="20" y="29" width="233" height="108"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_UBiuVbwTEe-RZ4dM7AoSwQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_UBiuVrwTEe-RZ4dM7AoSwQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_UBiuUbwTEe-RZ4dM7AoSwQ" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UBiuUrwTEe-RZ4dM7AoSwQ" x="455" y="44" width="288" height="173"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_fXZr8LwWEe-RZ4dM7AoSwQ" type="3007" element="_fXYd1rwWEe-RZ4dM7AoSwQ">
+              <children xmi:type="notation:Node" xmi:id="_fXZr87wWEe-RZ4dM7AoSwQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fXZr9LwWEe-RZ4dM7AoSwQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_fXZr9bwWEe-RZ4dM7AoSwQ" type="3003" element="_fXYd17wWEe-RZ4dM7AoSwQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_fXZr9rwWEe-RZ4dM7AoSwQ" fontName="Ubuntu"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fXZr97wWEe-RZ4dM7AoSwQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_fXZr8bwWEe-RZ4dM7AoSwQ" fontName="Ubuntu" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fXZr8rwWEe-RZ4dM7AoSwQ" x="225" y="64" width="66" height="106"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_vRh_obwREe-RZ4dM7AoSwQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_vRh_orwREe-RZ4dM7AoSwQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vRhYkbwREe-RZ4dM7AoSwQ" fontName="Ubuntu"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vRhYkrwREe-RZ4dM7AoSwQ" x="30" y="30" width="778" height="253"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XGWjULw4Ee-8ruynVsGnGA" type="2002" element="_XGHSwLw4Ee-8ruynVsGnGA">
+          <children xmi:type="notation:Node" xmi:id="_XGXKYLw4Ee-8ruynVsGnGA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_XGXKYbw4Ee-8ruynVsGnGA" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_XGXKYrw4Ee-8ruynVsGnGA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_XGXKY7w4Ee-8ruynVsGnGA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XGWjUbw4Ee-8ruynVsGnGA" fontName="Ubuntu" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XGWjUrw4Ee-8ruynVsGnGA" x="230" y="250"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_cYTIpLw5Ee-8ruynVsGnGA" type="2002" element="_cYG7YLw5Ee-8ruynVsGnGA">
+          <children xmi:type="notation:Node" xmi:id="_cYTIp7w5Ee-8ruynVsGnGA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_cYTIqLw5Ee-8ruynVsGnGA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_fI_SILw6Ee-8ruynVsGnGA" type="3007" element="_fI4kcLw6Ee-8ruynVsGnGA">
+              <children xmi:type="notation:Node" xmi:id="_fI_5MLw6Ee-8ruynVsGnGA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fI_5Mbw6Ee-8ruynVsGnGA" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_fI_5Mrw6Ee-8ruynVsGnGA" type="3003" element="_fI4kcbw6Ee-8ruynVsGnGA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_fI_5M7w6Ee-8ruynVsGnGA" fontName="Ubuntu"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fI_5NLw6Ee-8ruynVsGnGA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_fI_SIbw6Ee-8ruynVsGnGA" fontName="Ubuntu" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fI_SIrw6Ee-8ruynVsGnGA" x="90" y="34" width="30" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_cYTIqbw5Ee-8ruynVsGnGA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_cYTIqrw5Ee-8ruynVsGnGA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_cYTIpbw5Ee-8ruynVsGnGA" fontName="Ubuntu" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cYTIprw5Ee-8ruynVsGnGA" x="630" y="360"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_E49fRrwLEe-RZ4dM7AoSwQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_1MbdgLwhEe-RZ4dM7AoSwQ" type="4001" element="_1L3c0LwhEe-RZ4dM7AoSwQ" source="_GZ4-ILwZEe-RZ4dM7AoSwQ" target="_cdcZErwSEe-RZ4dM7AoSwQ">
+          <children xmi:type="notation:Node" xmi:id="_1MbdhLwhEe-RZ4dM7AoSwQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1MbdhbwhEe-RZ4dM7AoSwQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1McEkLwhEe-RZ4dM7AoSwQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1McEkbwhEe-RZ4dM7AoSwQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1McEkrwhEe-RZ4dM7AoSwQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1McEk7whEe-RZ4dM7AoSwQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1MbdgbwhEe-RZ4dM7AoSwQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1MbdgrwhEe-RZ4dM7AoSwQ" fontName="Ubuntu" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1Mbdg7whEe-RZ4dM7AoSwQ" points="[-28, -1, 244, 8]$[-239, -8, 33, 1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1McElLwhEe-RZ4dM7AoSwQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1McElbwhEe-RZ4dM7AoSwQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_1McElrwhEe-RZ4dM7AoSwQ" type="4001" element="_1L3c1bwhEe-RZ4dM7AoSwQ" source="_0DdZarwYEe-RZ4dM7AoSwQ" target="_fXZr8LwWEe-RZ4dM7AoSwQ">
+          <children xmi:type="notation:Node" xmi:id="_1McEmrwhEe-RZ4dM7AoSwQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1McEm7whEe-RZ4dM7AoSwQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1McEnLwhEe-RZ4dM7AoSwQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1McEnbwhEe-RZ4dM7AoSwQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1McEnrwhEe-RZ4dM7AoSwQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1McEn7whEe-RZ4dM7AoSwQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1McEl7whEe-RZ4dM7AoSwQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1McEmLwhEe-RZ4dM7AoSwQ" fontName="Ubuntu" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1McEmbwhEe-RZ4dM7AoSwQ" points="[-38, -2, 224, 7]$[-229, -8, 33, 1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1McEoLwhEe-RZ4dM7AoSwQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1McEobwhEe-RZ4dM7AoSwQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_IfykkLwiEe-RZ4dM7AoSwQ" type="4001" element="_IfPyALwiEe-RZ4dM7AoSwQ" source="_0JohkLwSEe-RZ4dM7AoSwQ" target="_cdbyALwSEe-RZ4dM7AoSwQ">
+          <children xmi:type="notation:Node" xmi:id="_IfyklLwiEe-RZ4dM7AoSwQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IfyklbwiEe-RZ4dM7AoSwQ" x="6" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IfyklrwiEe-RZ4dM7AoSwQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ifykl7wiEe-RZ4dM7AoSwQ" x="-6" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_IfykmLwiEe-RZ4dM7AoSwQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IfykmbwiEe-RZ4dM7AoSwQ" x="6" y="-8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_IfykkbwiEe-RZ4dM7AoSwQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_IfykkrwiEe-RZ4dM7AoSwQ" fontName="Ubuntu" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ifykk7wiEe-RZ4dM7AoSwQ" points="[-28, -19, 270, -17]$[-153, -105, 145, -103]$[-262, -27, 36, -25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IfykmrwiEe-RZ4dM7AoSwQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ifykm7wiEe-RZ4dM7AoSwQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_pbEQ0Lw4Ee-8ruynVsGnGA" type="4001" element="_pbDCsrw4Ee-8ruynVsGnGA" source="_0JohkLwSEe-RZ4dM7AoSwQ" target="_XGWjULw4Ee-8ruynVsGnGA">
+          <children xmi:type="notation:Node" xmi:id="_pbEQ1Lw4Ee-8ruynVsGnGA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pbEQ1bw4Ee-8ruynVsGnGA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_pbEQ1rw4Ee-8ruynVsGnGA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pbEQ17w4Ee-8ruynVsGnGA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_pbEQ2Lw4Ee-8ruynVsGnGA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pbEQ2bw4Ee-8ruynVsGnGA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_pbEQ0bw4Ee-8ruynVsGnGA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_pbEQ0rw4Ee-8ruynVsGnGA" fontName="Ubuntu" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pbEQ07w4Ee-8ruynVsGnGA" points="[0, 0, 164, -150]$[-164, 150, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pbEQ2rw4Ee-8ruynVsGnGA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pbEQ27w4Ee-8ruynVsGnGA" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_E4-GULwLEe-RZ4dM7AoSwQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_E4-GUbwLEe-RZ4dM7AoSwQ"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_vRBpULwREe-RZ4dM7AoSwQ" name="Produits">
+      <target xmi:type="gstock:Table" href="tables.gstock#1"/>
+      <semanticElements xmi:type="gstock:Table" href="tables.gstock#1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_8HovYbwREe-RZ4dM7AoSwQ" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_cc0uArwSEe-RZ4dM7AoSwQ" name="Nom" incomingEdges="_IfPyALwiEe-RZ4dM7AoSwQ" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="gstock:Colonnesimple" href="tables.gstock#11"/>
+        <semanticElements xmi:type="gstock:Colonnesimple" href="tables.gstock#11"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_kR_6g7wSEe-RZ4dM7AoSwQ" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CSNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CSNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_cc1VEbwSEe-RZ4dM7AoSwQ" name="Prix" incomingEdges="_1L3c0LwhEe-RZ4dM7AoSwQ" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="gstock:Colonnesimple" href="tables.gstock#12"/>
+        <semanticElements xmi:type="gstock:Colonnesimple" href="tables.gstock#12"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_kSAhkrwSEe-RZ4dM7AoSwQ" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CSNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CSNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_fXYd1rwWEe-RZ4dM7AoSwQ" name="Qtite" incomingEdges="_1L3c1bwhEe-RZ4dM7AoSwQ" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="gstock:Colonnesimple" href="tables.gstock#15"/>
+        <semanticElements xmi:type="gstock:Colonnesimple" href="tables.gstock#15"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_fXYd17wWEe-RZ4dM7AoSwQ" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CSNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CSNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_0JJZZbwSEe-RZ4dM7AoSwQ" name="CRef" outgoingEdges="_IfPyALwiEe-RZ4dM7AoSwQ _pbDCsrw4Ee-8ruynVsGnGA" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="gstock:Colonne_referencee" href="tables.gstock#13"/>
+        <semanticElements xmi:type="gstock:Colonne_referencee" href="tables.gstock#13"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_3GEdhrwSEe-RZ4dM7AoSwQ" labelSize="12" labelPosition="node" color="138,226,52">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CRNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CRNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_UA51IrwTEe-RZ4dM7AoSwQ" name="Total">
+        <target xmi:type="gstock:Colonne_derivee" href="tables.gstock#14"/>
+        <semanticElements xmi:type="gstock:Colonne_derivee" href="tables.gstock#14"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_bOIQ0LwTEe-RZ4dM7AoSwQ" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="239,41,41">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subContainerMappings[name='CDContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subContainerMappings[name='CDContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_j0JupLwXEe-RZ4dM7AoSwQ" name="total">
+          <target xmi:type="gstock:ExpressionBinaire" href="tables.gstock#//@tables.0/@colonnes.3/@expression"/>
+          <semanticElements xmi:type="gstock:ExpressionBinaire" href="tables.gstock#//@tables.0/@colonnes.3/@expression"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_swv2MLwXEe-RZ4dM7AoSwQ" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="0,0,0">
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subContainerMappings[name='CDContainer']/@subContainerMappings[name='ExpressionContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subContainerMappings[name='CDContainer']/@subContainerMappings[name='ExpressionContainer']"/>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_GZ3wCLwZEe-RZ4dM7AoSwQ" name="prix" outgoingEdges="_1L3c0LwhEe-RZ4dM7AoSwQ" width="3" height="3" resizeKind="NSEW">
+            <target xmi:type="gstock:AccesVariable" href="tables.gstock#//@tables.0/@colonnes.3/@expression/@operandeG"/>
+            <semanticElements xmi:type="gstock:AccesVariable" href="tables.gstock#//@tables.0/@colonnes.3/@expression/@operandeG"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:Ellipse" uid="_GZ3wCbwZEe-RZ4dM7AoSwQ" labelSize="12" labelPosition="node" color="252,233,79">
+              <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subContainerMappings[name='CDContainer']/@subContainerMappings[name='ExpressionContainer']/@subNodeMappings[name='AVNode']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subContainerMappings[name='CDContainer']/@subContainerMappings[name='ExpressionContainer']/@subNodeMappings[name='AVNode']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="_0C3jhbwYEe-RZ4dM7AoSwQ" name="qtite" outgoingEdges="_1L3c1bwhEe-RZ4dM7AoSwQ" width="3" height="3" resizeKind="NSEW">
+            <target xmi:type="gstock:AccesVariable" href="tables.gstock#//@tables.0/@colonnes.3/@expression/@operandeD"/>
+            <semanticElements xmi:type="gstock:AccesVariable" href="tables.gstock#//@tables.0/@colonnes.3/@expression/@operandeD"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:Ellipse" uid="_66MnxLwYEe-RZ4dM7AoSwQ" labelSize="12" labelPosition="node" color="252,233,79">
+              <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subContainerMappings[name='CDContainer']/@subContainerMappings[name='ExpressionContainer']/@subNodeMappings[name='AVNode']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subContainerMappings[name='CDContainer']/@subContainerMappings[name='ExpressionContainer']/@subNodeMappings[name='AVNode']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" uid="__OEeZrwdEe-RZ4dM7AoSwQ" name="multiplication" width="3" height="3" resizeKind="NSEW">
+            <target xmi:type="gstock:Operateur" href="tables.gstock#//@tables.0/@colonnes.3/@expression/@operateur"/>
+            <semanticElements xmi:type="gstock:Operateur" href="tables.gstock#//@tables.0/@colonnes.3/@expression/@operateur"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:Ellipse" uid="_DZKl0LweEe-RZ4dM7AoSwQ" labelSize="12" labelPosition="node" color="224,133,3">
+              <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subContainerMappings[name='CDContainer']/@subContainerMappings[name='ExpressionContainer']/@subNodeMappings[name='OPNode']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subContainerMappings[name='CDContainer']/@subContainerMappings[name='ExpressionContainer']/@subNodeMappings[name='OPNode']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_1L3c0LwhEe-RZ4dM7AoSwQ" sourceNode="_GZ3wCLwZEe-RZ4dM7AoSwQ" targetNode="_cc1VEbwSEe-RZ4dM7AoSwQ">
+      <target xmi:type="gstock:AccesVariable" href="tables.gstock#//@tables.0/@colonnes.3/@expression/@operandeG"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_1L3c0bwhEe-RZ4dM7AoSwQ" size="2" strokeColor="252,233,79">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@edgeMappings[name='OperandeEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_1L3c0rwhEe-RZ4dM7AoSwQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@edgeMappings[name='OperandeEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_1L3c1bwhEe-RZ4dM7AoSwQ" sourceNode="_0C3jhbwYEe-RZ4dM7AoSwQ" targetNode="_fXYd1rwWEe-RZ4dM7AoSwQ">
+      <target xmi:type="gstock:AccesVariable" href="tables.gstock#//@tables.0/@colonnes.3/@expression/@operandeD"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_1L3c1rwhEe-RZ4dM7AoSwQ" size="2" strokeColor="252,233,79">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@edgeMappings[name='OperandeEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_1L3c17whEe-RZ4dM7AoSwQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@edgeMappings[name='OperandeEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_IfPyALwiEe-RZ4dM7AoSwQ" sourceNode="_0JJZZbwSEe-RZ4dM7AoSwQ" targetNode="_cc0uArwSEe-RZ4dM7AoSwQ">
+      <target xmi:type="gstock:Colonne_referencee" href="tables.gstock#13"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_IfPyAbwiEe-RZ4dM7AoSwQ" size="2" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@edgeMappings[name='CREdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_IfPyArwiEe-RZ4dM7AoSwQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@edgeMappings[name='CREdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_XGHSwLw4Ee-8ruynVsGnGA" name="Commandes" incomingEdges="_pbDCsrw4Ee-8ruynVsGnGA">
+      <target xmi:type="gstock:Table" href="tables.gstock#2"/>
+      <semanticElements xmi:type="gstock:Table" href="tables.gstock#2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XGH50Lw4Ee-8ruynVsGnGA" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pbDCsrw4Ee-8ruynVsGnGA" sourceNode="_0JJZZbwSEe-RZ4dM7AoSwQ" targetNode="_XGHSwLw4Ee-8ruynVsGnGA">
+      <target xmi:type="gstock:Colonne_referencee" href="tables.gstock#13"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pbDCs7w4Ee-8ruynVsGnGA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@edgeMappings[name='CRTEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pbDCtLw4Ee-8ruynVsGnGA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@edgeMappings[name='CRTEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_cYG7YLw5Ee-8ruynVsGnGA" name="TableTest">
+      <target xmi:type="gstock:Table" href="tables.gstock#3"/>
+      <semanticElements xmi:type="gstock:Table" href="tables.gstock#3"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_cYHicLw5Ee-8ruynVsGnGA" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_fI4kcLw6Ee-8ruynVsGnGA" name="Nom" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="gstock:Colonnesimple" href="tables.gstock#31"/>
+        <semanticElements xmi:type="gstock:Colonnesimple" href="tables.gstock#31"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_fI4kcbw6Ee-8ruynVsGnGA" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CSNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CSNode']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_E49fQbwLEe-RZ4dM7AoSwQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer"/>
+    <target xmi:type="gstock:Application" href="tables.gstock#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gstock:Application
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:gstock="http://gstock">
+  <tables id="1"
+      Nom="Produits">
+    <colonnes
+        xsi:type="gstock:Colonnesimple"
+        id="11"
+        Nom="Nom"
+        Type="String"/>
+    <colonnes
+        xsi:type="gstock:Colonnesimple"
+        id="12"
+        Nom="Prix"
+        Type="Int"/>
+    <colonnes
+        xsi:type="gstock:Colonnesimple"
+        id="13"
+        Nom="Qtite"
+        Type="Int"/>
+    <colonnes
+        xsi:type="gstock:Colonne_derivee"
+        id="14"
+        Nom="Total"
+        Type="Int">
+      <expression
+          xsi:type="gstock:ExpressionBinaire"
+          Nom="total">
+        <operandeG
+            xsi:type="gstock:AccesVariable"
+            Nom="prix"
+            colonne="12"/>
+        <operateur
+            type="multiplication"/>
+        <operandeD
+            xsi:type="gstock:AccesVariable"
+            Nom="nomproduit"
+            colonne="11"/>
+      </expression>
+    </colonnes>
+  </tables>
+</gstock:Application>

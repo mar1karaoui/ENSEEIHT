@@ -1,0 +1,1422 @@
+!SESSION 2024-12-17 00:51:54.164 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.11
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -product org.eclipse.epp.package.modeling.product -data /home/mki5633/Annee_2/IDM_Projet_Copy/Projet_IDM/../runtime-EclipseApplication -dev file:/home/mki5633/Annee_2/IDM_Projet_Copy/Projet_IDM/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os linux -ws gtk -arch x86_64 -consoleLog
+
+!ENTRY org.eclipse.emf.common 2 0 2024-12-17 01:54:30.537
+!MESSAGE An exception was ignored during command execution
+!STACK 0
+org.eclipse.emf.common.util.WrappedException: An exception was ignored during command execution
+	at org.eclipse.emf.common.command.BasicCommandStack.handleError(BasicCommandStack.java:281)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.handleError(AbstractTransactionalCommandStack.java:120)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:224)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramEditorImpl.launchRefresh(DDiagramEditorImpl.java:1417)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramEditorImpl$1.run(DDiagramEditorImpl.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.emf.transaction.RollbackException: Uncaught exception during pre-commit trigger processing
+	at org.eclipse.emf.workspace.impl.WorkspaceCommandStackImpl.doExecute(WorkspaceCommandStackImpl.java:208)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:160)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:214)
+	... 3 more
+
+!ENTRY org.eclipse.sirius 2 0 2024-12-17 03:14:40.405
+!MESSAGE the following edge mapping source finder expression could not be correctly evaluated : feature:operateur
+!STACK 0
+org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown feature name operateur
+	at org.eclipse.sirius.common.tools.internal.interpreter.FeatureInterpreter.evaluate(FeatureInterpreter.java:98)
+	at org.eclipse.sirius.tools.internal.interpreter.SessionInterpreter.evaluate(SessionInterpreter.java:179)
+	at org.eclipse.sirius.common.tools.api.interpreter.IInterpreter.evaluateCollection(IInterpreter.java:148)
+	at org.eclipse.sirius.diagram.business.api.query.EdgeMappingQuery.evaluateSourceFinderExpression(EdgeMappingQuery.java:141)
+	at org.eclipse.sirius.diagram.business.internal.sync.DEdgeSynchronizerHelper.handleCandidatesFromSemanticTargets(DEdgeSynchronizerHelper.java:203)
+	at org.eclipse.sirius.diagram.business.internal.sync.DEdgeSynchronizerHelper.computeEdgeCandidatesWithDomain(DEdgeSynchronizerHelper.java:129)
+	at org.eclipse.sirius.diagram.business.internal.sync.DEdgeSynchronizerHelper.computeNowEdgeCandidates(DEdgeSynchronizerHelper.java:108)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.computeEdgeCandidates(DDiagramSynchronizer.java:990)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.createEdgeCandidates(DDiagramSynchronizer.java:1258)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.refreshEdgeMapping(DDiagramSynchronizer.java:1210)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.processEdgeMappingsRefresh(DDiagramSynchronizer.java:467)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.refreshOperation(DDiagramSynchronizer.java:388)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.refresh(DDiagramSynchronizer.java:316)
+	at org.eclipse.sirius.diagram.business.internal.dialect.DiagramDialectServices.refresh(DiagramDialectServices.java:240)
+	at org.eclipse.sirius.business.internal.dialect.DialectManagerImpl.refresh(DialectManagerImpl.java:106)
+	at org.eclipse.sirius.business.api.dialect.command.RefreshRepresentationsCommand.doExecute(RefreshRepresentationsCommand.java:122)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.emf.workspace.EMFCommandOperation.doExecute(EMFCommandOperation.java:114)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.emf.workspace.impl.WorkspaceCommandStackImpl.doExecute(WorkspaceCommandStackImpl.java:203)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:160)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:214)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramEditorImpl.launchRefresh(DDiagramEditorImpl.java:1417)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramEditorImpl$1.run(DDiagramEditorImpl.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.sirius 2 0 2024-12-17 03:16:12.438
+!MESSAGE the following edge mapping source finder expression could not be correctly evaluated : feature:operation
+!STACK 0
+org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown feature name operation
+	at org.eclipse.sirius.common.tools.internal.interpreter.FeatureInterpreter.evaluate(FeatureInterpreter.java:98)
+	at org.eclipse.sirius.tools.internal.interpreter.SessionInterpreter.evaluate(SessionInterpreter.java:179)
+	at org.eclipse.sirius.common.tools.api.interpreter.IInterpreter.evaluateCollection(IInterpreter.java:148)
+	at org.eclipse.sirius.diagram.business.api.query.EdgeMappingQuery.evaluateSourceFinderExpression(EdgeMappingQuery.java:141)
+	at org.eclipse.sirius.diagram.business.internal.sync.DEdgeSynchronizerHelper.handleCandidatesFromSemanticTargets(DEdgeSynchronizerHelper.java:203)
+	at org.eclipse.sirius.diagram.business.internal.sync.DEdgeSynchronizerHelper.computeEdgeCandidatesWithDomain(DEdgeSynchronizerHelper.java:129)
+	at org.eclipse.sirius.diagram.business.internal.sync.DEdgeSynchronizerHelper.computeNowEdgeCandidates(DEdgeSynchronizerHelper.java:108)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.computeEdgeCandidates(DDiagramSynchronizer.java:990)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.createEdgeCandidates(DDiagramSynchronizer.java:1258)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.refreshEdgeMapping(DDiagramSynchronizer.java:1210)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.processEdgeMappingsRefresh(DDiagramSynchronizer.java:467)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.refreshOperation(DDiagramSynchronizer.java:388)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.refresh(DDiagramSynchronizer.java:316)
+	at org.eclipse.sirius.diagram.business.internal.dialect.DiagramDialectServices.refresh(DiagramDialectServices.java:240)
+	at org.eclipse.sirius.business.internal.dialect.DialectManagerImpl.refresh(DialectManagerImpl.java:106)
+	at org.eclipse.sirius.business.api.dialect.command.RefreshRepresentationsCommand.doExecute(RefreshRepresentationsCommand.java:122)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.emf.workspace.EMFCommandOperation.doExecute(EMFCommandOperation.java:114)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.emf.workspace.impl.WorkspaceCommandStackImpl.doExecute(WorkspaceCommandStackImpl.java:203)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:160)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:214)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramEditorImpl.launchRefresh(DDiagramEditorImpl.java:1417)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramEditorImpl$1.run(DDiagramEditorImpl.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.sirius 2 0 2024-12-17 03:16:55.478
+!MESSAGE the following edge mapping source finder expression could not be correctly evaluated : feature:operations
+!STACK 0
+org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown feature name operations
+	at org.eclipse.sirius.common.tools.internal.interpreter.FeatureInterpreter.evaluate(FeatureInterpreter.java:98)
+	at org.eclipse.sirius.tools.internal.interpreter.SessionInterpreter.evaluate(SessionInterpreter.java:179)
+	at org.eclipse.sirius.common.tools.api.interpreter.IInterpreter.evaluateCollection(IInterpreter.java:148)
+	at org.eclipse.sirius.diagram.business.api.query.EdgeMappingQuery.evaluateSourceFinderExpression(EdgeMappingQuery.java:141)
+	at org.eclipse.sirius.diagram.business.internal.sync.DEdgeSynchronizerHelper.handleCandidatesFromSemanticTargets(DEdgeSynchronizerHelper.java:203)
+	at org.eclipse.sirius.diagram.business.internal.sync.DEdgeSynchronizerHelper.computeEdgeCandidatesWithDomain(DEdgeSynchronizerHelper.java:129)
+	at org.eclipse.sirius.diagram.business.internal.sync.DEdgeSynchronizerHelper.computeNowEdgeCandidates(DEdgeSynchronizerHelper.java:108)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.computeEdgeCandidates(DDiagramSynchronizer.java:990)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.createEdgeCandidates(DDiagramSynchronizer.java:1258)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.refreshEdgeMapping(DDiagramSynchronizer.java:1210)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.processEdgeMappingsRefresh(DDiagramSynchronizer.java:467)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.refreshOperation(DDiagramSynchronizer.java:388)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.refresh(DDiagramSynchronizer.java:316)
+	at org.eclipse.sirius.diagram.business.internal.dialect.DiagramDialectServices.refresh(DiagramDialectServices.java:240)
+	at org.eclipse.sirius.business.internal.dialect.DialectManagerImpl.refresh(DialectManagerImpl.java:106)
+	at org.eclipse.sirius.business.api.dialect.command.RefreshRepresentationsCommand.doExecute(RefreshRepresentationsCommand.java:122)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.emf.workspace.EMFCommandOperation.doExecute(EMFCommandOperation.java:114)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.emf.workspace.impl.WorkspaceCommandStackImpl.doExecute(WorkspaceCommandStackImpl.java:203)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:160)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:214)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramEditorImpl.launchRefresh(DDiagramEditorImpl.java:1417)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramEditorImpl$1.run(DDiagramEditorImpl.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.sirius 2 0 2024-12-17 03:17:21.632
+!MESSAGE the following edge mapping source finder expression could not be correctly evaluated : feature:Operations
+!STACK 0
+org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown feature name Operations
+	at org.eclipse.sirius.common.tools.internal.interpreter.FeatureInterpreter.evaluate(FeatureInterpreter.java:98)
+	at org.eclipse.sirius.tools.internal.interpreter.SessionInterpreter.evaluate(SessionInterpreter.java:179)
+	at org.eclipse.sirius.common.tools.api.interpreter.IInterpreter.evaluateCollection(IInterpreter.java:148)
+	at org.eclipse.sirius.diagram.business.api.query.EdgeMappingQuery.evaluateSourceFinderExpression(EdgeMappingQuery.java:141)
+	at org.eclipse.sirius.diagram.business.internal.sync.DEdgeSynchronizerHelper.handleCandidatesFromSemanticTargets(DEdgeSynchronizerHelper.java:203)
+	at org.eclipse.sirius.diagram.business.internal.sync.DEdgeSynchronizerHelper.computeEdgeCandidatesWithDomain(DEdgeSynchronizerHelper.java:129)
+	at org.eclipse.sirius.diagram.business.internal.sync.DEdgeSynchronizerHelper.computeNowEdgeCandidates(DEdgeSynchronizerHelper.java:108)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.computeEdgeCandidates(DDiagramSynchronizer.java:990)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.createEdgeCandidates(DDiagramSynchronizer.java:1258)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.refreshEdgeMapping(DDiagramSynchronizer.java:1210)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.processEdgeMappingsRefresh(DDiagramSynchronizer.java:467)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.refreshOperation(DDiagramSynchronizer.java:388)
+	at org.eclipse.sirius.diagram.business.internal.sync.DDiagramSynchronizer.refresh(DDiagramSynchronizer.java:316)
+	at org.eclipse.sirius.diagram.business.internal.dialect.DiagramDialectServices.refresh(DiagramDialectServices.java:240)
+	at org.eclipse.sirius.business.internal.dialect.DialectManagerImpl.refresh(DialectManagerImpl.java:106)
+	at org.eclipse.sirius.business.api.dialect.command.RefreshRepresentationsCommand.doExecute(RefreshRepresentationsCommand.java:122)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.emf.workspace.EMFCommandOperation.doExecute(EMFCommandOperation.java:114)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.emf.workspace.impl.WorkspaceCommandStackImpl.doExecute(WorkspaceCommandStackImpl.java:203)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:160)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:214)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramEditorImpl.launchRefresh(DDiagramEditorImpl.java:1417)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramEditorImpl$1.run(DDiagramEditorImpl.java:798)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 03:31:37.899
+!MESSAGE Compilation error for expression [colonne/] : Unrecognized variable: (colonne)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 03:31:43.779
+!MESSAGE Compilation error for expression [colonne/] : Unrecognized variable: (colonne)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 05:50:43.207
+!MESSAGE Compilation error for expression [container/] : Invalid Type: :Application:ecore::EObject
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 05:55:42.245
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.sirius 4 0 2024-12-17 05:55:42.248
+!MESSAGE Error while modifying model
+!STACK 0
+org.eclipse.sirius.ecore.extender.business.api.accessor.exception.FeatureNotFoundException: Application on gstock.impl.ApplicationImpl@dd4ea28
+	at org.eclipse.sirius.ecore.extender.business.api.accessor.ModelAccessor.eIsMany(ModelAccessor.java:321)
+	at org.eclipse.sirius.business.internal.helper.task.operations.CreateInstanceTask.execute(CreateInstanceTask.java:89)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:126)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gef.tools.CreationTool.performCreation(CreationTool.java:277)
+	at org.eclipse.gef.tools.CreationTool.handleButtonUp(CreationTool.java:193)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1154)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:278)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:400)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:573)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 05:56:11.601
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.sirius 4 0 2024-12-17 05:56:11.604
+!MESSAGE Error while modifying model
+!STACK 0
+org.eclipse.sirius.ecore.extender.business.api.accessor.exception.FeatureNotFoundException: Application on gstock.impl.ApplicationImpl@dd4ea28
+	at org.eclipse.sirius.ecore.extender.business.api.accessor.ModelAccessor.eIsMany(ModelAccessor.java:321)
+	at org.eclipse.sirius.business.internal.helper.task.operations.CreateInstanceTask.execute(CreateInstanceTask.java:89)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:126)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gef.tools.CreationTool.performCreation(CreationTool.java:277)
+	at org.eclipse.gef.tools.CreationTool.handleButtonUp(CreationTool.java:193)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1154)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:278)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:400)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:573)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 05:56:14.206
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.sirius 4 0 2024-12-17 05:56:14.209
+!MESSAGE Error while modifying model
+!STACK 0
+org.eclipse.sirius.ecore.extender.business.api.accessor.exception.FeatureNotFoundException: Application on gstock.impl.ApplicationImpl@dd4ea28
+	at org.eclipse.sirius.ecore.extender.business.api.accessor.ModelAccessor.eIsMany(ModelAccessor.java:321)
+	at org.eclipse.sirius.business.internal.helper.task.operations.CreateInstanceTask.execute(CreateInstanceTask.java:89)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:126)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.AbstractPopupBarTool.performCreation(AbstractPopupBarTool.java:136)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.AbstractPopupBarTool.handleButtonUp(AbstractPopupBarTool.java:124)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1154)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(SelectionTool.java:581)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:278)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:400)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:573)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 05:56:16.527
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.sirius 4 0 2024-12-17 05:56:16.530
+!MESSAGE Error while modifying model
+!STACK 0
+org.eclipse.sirius.ecore.extender.business.api.accessor.exception.FeatureNotFoundException: Application on gstock.impl.ApplicationImpl@dd4ea28
+	at org.eclipse.sirius.ecore.extender.business.api.accessor.ModelAccessor.eIsMany(ModelAccessor.java:321)
+	at org.eclipse.sirius.business.internal.helper.task.operations.CreateInstanceTask.execute(CreateInstanceTask.java:89)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:126)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.AbstractPopupBarTool.performCreation(AbstractPopupBarTool.java:136)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.AbstractPopupBarTool.handleButtonUp(AbstractPopupBarTool.java:124)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1154)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(SelectionTool.java:581)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:278)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:400)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:573)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 05:56:37.444
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.sirius 4 0 2024-12-17 05:56:37.446
+!MESSAGE Error while modifying model
+!STACK 0
+org.eclipse.sirius.ecore.extender.business.api.accessor.exception.FeatureNotFoundException: Application on gstock.impl.ApplicationImpl@dd4ea28
+	at org.eclipse.sirius.ecore.extender.business.api.accessor.ModelAccessor.eIsMany(ModelAccessor.java:321)
+	at org.eclipse.sirius.business.internal.helper.task.operations.CreateInstanceTask.execute(CreateInstanceTask.java:89)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:126)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.AbstractPopupBarTool.performCreation(AbstractPopupBarTool.java:136)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.AbstractPopupBarTool.handleButtonUp(AbstractPopupBarTool.java:124)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1154)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(SelectionTool.java:581)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:278)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:400)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:573)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 05:56:38.275
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.sirius 4 0 2024-12-17 05:56:38.278
+!MESSAGE Error while modifying model
+!STACK 0
+org.eclipse.sirius.ecore.extender.business.api.accessor.exception.FeatureNotFoundException: Application on gstock.impl.ApplicationImpl@dd4ea28
+	at org.eclipse.sirius.ecore.extender.business.api.accessor.ModelAccessor.eIsMany(ModelAccessor.java:321)
+	at org.eclipse.sirius.business.internal.helper.task.operations.CreateInstanceTask.execute(CreateInstanceTask.java:89)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:126)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.AbstractPopupBarTool.performCreation(AbstractPopupBarTool.java:136)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.AbstractPopupBarTool.handleButtonUp(AbstractPopupBarTool.java:124)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1154)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(SelectionTool.java:581)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:278)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:400)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:573)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 05:56:38.486
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.sirius 4 0 2024-12-17 05:56:38.489
+!MESSAGE Error while modifying model
+!STACK 0
+org.eclipse.sirius.ecore.extender.business.api.accessor.exception.FeatureNotFoundException: Application on gstock.impl.ApplicationImpl@dd4ea28
+	at org.eclipse.sirius.ecore.extender.business.api.accessor.ModelAccessor.eIsMany(ModelAccessor.java:321)
+	at org.eclipse.sirius.business.internal.helper.task.operations.CreateInstanceTask.execute(CreateInstanceTask.java:89)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:126)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.AbstractPopupBarTool.performCreation(AbstractPopupBarTool.java:136)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.AbstractPopupBarTool.handleButtonUp(AbstractPopupBarTool.java:124)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1154)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(SelectionTool.java:581)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:278)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:400)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:573)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 05:56:38.677
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.sirius 4 0 2024-12-17 05:56:38.681
+!MESSAGE Error while modifying model
+!STACK 0
+org.eclipse.sirius.ecore.extender.business.api.accessor.exception.FeatureNotFoundException: Application on gstock.impl.ApplicationImpl@dd4ea28
+	at org.eclipse.sirius.ecore.extender.business.api.accessor.ModelAccessor.eIsMany(ModelAccessor.java:321)
+	at org.eclipse.sirius.business.internal.helper.task.operations.CreateInstanceTask.execute(CreateInstanceTask.java:89)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:126)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.AbstractPopupBarTool.performCreation(AbstractPopupBarTool.java:136)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.AbstractPopupBarTool.handleButtonUp(AbstractPopupBarTool.java:124)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1154)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(SelectionTool.java:581)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:278)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:400)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:573)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+!SESSION 2024-12-17 06:26:26.725 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.11
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -product org.eclipse.epp.package.modeling.product -data /home/mki5633/Annee_2/IDM_Projet_Copy/Projet_IDM/../runtime-EclipseApplication -dev file:/home/mki5633/Annee_2/IDM_Projet_Copy/Projet_IDM/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os linux -ws gtk -arch x86_64 -consoleLog
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 06:48:05.543
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 06:51:51.201
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 06:54:50.460
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 07:00:13.273
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 07:03:33.765
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 07:13:33.078
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 07:13:36.992
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 07:41:56.909
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.sirius 4 0 2024-12-17 07:41:56.911
+!MESSAGE Impossible to add a value to the reference operateur of the object gstock.impl.ExpressionBinaireImpl@3ed288e4 (Nom: null)
+!STACK 0
+java.lang.RuntimeException
+	at org.eclipse.sirius.business.internal.helper.task.operations.CreateInstanceTask.execute(CreateInstanceTask.java:94)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:126)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gef.tools.CreationTool.performCreation(CreationTool.java:277)
+	at org.eclipse.gef.tools.CreationTool.handleButtonUp(CreationTool.java:193)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1154)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:278)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:400)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:573)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 07:52:59.819
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.sirius 4 0 2024-12-17 07:52:59.823
+!MESSAGE Impossible to add a value to the reference operateur of the object gstock.impl.ExpressionBinaireImpl@3ed288e4 (Nom: null)
+!STACK 0
+java.lang.RuntimeException
+	at org.eclipse.sirius.business.internal.helper.task.operations.CreateInstanceTask.execute(CreateInstanceTask.java:94)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:126)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gef.tools.CreationTool.performCreation(CreationTool.java:277)
+	at org.eclipse.gef.tools.CreationTool.handleButtonUp(CreationTool.java:193)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1154)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:278)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:400)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:573)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 07:54:44.409
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.sirius 4 0 2024-12-17 07:54:44.410
+!MESSAGE Impossible to add a value to the reference operateur of the object gstock.impl.ExpressionBinaireImpl@3ed288e4 (Nom: null)
+!STACK 0
+java.lang.RuntimeException
+	at org.eclipse.sirius.business.internal.helper.task.operations.CreateInstanceTask.execute(CreateInstanceTask.java:94)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:126)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gef.tools.CreationTool.performCreation(CreationTool.java:277)
+	at org.eclipse.gef.tools.CreationTool.handleButtonUp(CreationTool.java:193)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1154)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:278)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:400)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:573)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 07:56:49.160
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 07:56:49.170
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 07:56:49.179
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 07:56:49.194
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 07:56:49.212
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:05:45.108
+!MESSAGE Compilation error for expression [source/] : Unrecognized variable: (source)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:05:45.123
+!MESSAGE Compilation error for expression [source/] : Unrecognized variable: (source)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:05:45.135
+!MESSAGE Compilation error for expression [source/] : Unrecognized variable: (source)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:05:45.144
+!MESSAGE Compilation error for expression [target/] : Unrecognized variable: (target)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:05:45.154
+!MESSAGE Compilation error for expression [source/] : Unrecognized variable: (source)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:05:45.164
+!MESSAGE Compilation error for expression [source/] : Unrecognized variable: (source)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:07:26.568
+!MESSAGE Compilation error for expression [source/] : Unrecognized variable: (source)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:07:26.573
+!MESSAGE Compilation error for expression [target/] : Unrecognized variable: (target)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:07:52.001
+!MESSAGE Compilation error for expression [source/] : Unrecognized variable: (source)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:07:52.006
+!MESSAGE Compilation error for expression [target/] : Unrecognized variable: (target)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:08:22.878
+!MESSAGE Compilation error for expression [source/] : Unrecognized variable: (source)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:08:22.886
+!MESSAGE Compilation error for expression [target/] : Unrecognized variable: (target)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:08:36.838
+!MESSAGE Compilation error for expression [source/] : Unrecognized variable: (source)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:08:36.842
+!MESSAGE Compilation error for expression [target/] : Unrecognized variable: (target)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:08:36.846
+!MESSAGE Compilation error for expression [source/] : Unrecognized variable: (source)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:09:20.751
+!MESSAGE Compilation error for expression [source/] : Unrecognized variable: (source)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:09:20.756
+!MESSAGE Compilation error for expression [target/] : Unrecognized variable: (target)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:09:28.572
+!MESSAGE Compilation error for expression [source/] : Unrecognized variable: (source)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:09:28.577
+!MESSAGE Compilation error for expression [target/] : Unrecognized variable: (target)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:09:59.425
+!MESSAGE Compilation error for expression [source/] : Unrecognized variable: (source)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:09:59.429
+!MESSAGE Compilation error for expression [target/] : Unrecognized variable: (target)
+
+!ENTRY org.eclipse.gmf.runtime.diagram.ui 4 4 2024-12-17 08:13:48.971
+!MESSAGE execute
+!STACK 0
+org.eclipse.core.commands.ExecutionException: While executing the operation, an exception occurred
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:504)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gef.tools.AbstractConnectionCreationTool.handleCreateConnection(AbstractConnectionCreationTool.java:260)
+	at org.eclipse.gef.tools.ConnectionCreationTool.handleButtonDown(ConnectionCreationTool.java:74)
+	at org.eclipse.gef.tools.AbstractTool.mouseDown(AbstractTool.java:1051)
+	at org.eclipse.gef.EditDomain.mouseDown(EditDomain.java:230)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMousePressed(DomainEventDispatcher.java:366)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDown(LightweightSystem.java:543)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:196)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.sirius.diagram.DSemanticDiagram.getDescription()" because "parentDDiagram" is null
+	at org.eclipse.sirius.diagram.business.internal.helper.task.operations.CreateViewTask.createEdgeView(CreateViewTask.java:219)
+	at org.eclipse.sirius.diagram.business.internal.helper.task.operations.CreateViewTask.createView(CreateViewTask.java:152)
+	at org.eclipse.sirius.diagram.business.internal.helper.task.operations.CreateViewTask.execute(CreateViewTask.java:116)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	... 39 more
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 08:16:08.256
+!MESSAGE Compilation error for expression [sourceView/] : Unrecognized variable: (sourceView)
+
+!ENTRY org.eclipse.gmf.runtime.diagram.ui 4 4 2024-12-17 08:16:08.259
+!MESSAGE execute
+!STACK 0
+org.eclipse.core.commands.ExecutionException: While executing the operation, an exception occurred
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:504)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gef.tools.AbstractConnectionCreationTool.handleCreateConnection(AbstractConnectionCreationTool.java:260)
+	at org.eclipse.gef.tools.ConnectionCreationTool.handleButtonDown(ConnectionCreationTool.java:74)
+	at org.eclipse.gef.tools.AbstractTool.mouseDown(AbstractTool.java:1051)
+	at org.eclipse.gef.EditDomain.mouseDown(EditDomain.java:230)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMousePressed(DomainEventDispatcher.java:366)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDown(LightweightSystem.java:543)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:196)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.sirius.diagram.DSemanticDiagram.getDescription()" because "parentDDiagram" is null
+	at org.eclipse.sirius.diagram.business.internal.helper.task.operations.CreateViewTask.createEdgeView(CreateViewTask.java:219)
+	at org.eclipse.sirius.diagram.business.internal.helper.task.operations.CreateViewTask.createView(CreateViewTask.java:152)
+	at org.eclipse.sirius.diagram.business.internal.helper.task.operations.CreateViewTask.execute(CreateViewTask.java:116)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	... 39 more
+!SESSION 2024-12-17 13:44:04.128 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.12
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -product org.eclipse.epp.package.modeling.product -data /home/mki5633/Annee_2/IDM_Projet_Copy/Projet_IDM/../runtime-EclipseApplication -dev file:/home/mki5633/Annee_2/IDM_Projet_Copy/Projet_IDM/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os linux -ws gtk -arch x86_64 -consoleLog
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 13:45:37.024
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 13:45:42.556
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 13:45:47.922
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 13:45:51.620
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 13:45:55.740
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.sirius 4 0 2024-12-17 13:45:55.742
+!MESSAGE Impossible to add a value to the reference operandeG of the object gstock.impl.ExpressionBinaireImpl@788648e8 (Nom: null)
+!STACK 0
+java.lang.RuntimeException
+	at org.eclipse.sirius.business.internal.helper.task.operations.CreateInstanceTask.execute(CreateInstanceTask.java:94)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:126)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gef.tools.CreationTool.performCreation(CreationTool.java:277)
+	at org.eclipse.gef.tools.CreationTool.handleButtonUp(CreationTool.java:193)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1154)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:278)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:400)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:573)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 13:45:58.900
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 13:46:46.351
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 13:47:09.000
+!MESSAGE Compilation error for expression [sourceView/] : Unrecognized variable: (sourceView)
+
+!ENTRY org.eclipse.gmf.runtime.diagram.ui 4 4 2024-12-17 13:47:09.020
+!MESSAGE execute
+!STACK 0
+org.eclipse.core.commands.ExecutionException: While executing the operation, an exception occurred
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:504)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gef.tools.AbstractConnectionCreationTool.handleCreateConnection(AbstractConnectionCreationTool.java:260)
+	at org.eclipse.gef.tools.ConnectionCreationTool.handleButtonDown(ConnectionCreationTool.java:74)
+	at org.eclipse.gef.tools.AbstractTool.mouseDown(AbstractTool.java:1051)
+	at org.eclipse.gef.EditDomain.mouseDown(EditDomain.java:230)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMousePressed(DomainEventDispatcher.java:366)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDown(LightweightSystem.java:543)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:196)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.sirius.diagram.DSemanticDiagram.getDescription()" because "parentDDiagram" is null
+	at org.eclipse.sirius.diagram.business.internal.helper.task.operations.CreateViewTask.createEdgeView(CreateViewTask.java:219)
+	at org.eclipse.sirius.diagram.business.internal.helper.task.operations.CreateViewTask.createView(CreateViewTask.java:152)
+	at org.eclipse.sirius.diagram.business.internal.helper.task.operations.CreateViewTask.execute(CreateViewTask.java:116)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	... 39 more
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 13:49:27.932
+!MESSAGE Compilation error for expression [sourceView/] : Unrecognized variable: (sourceView)
+
+!ENTRY org.eclipse.gmf.runtime.diagram.ui 4 4 2024-12-17 13:49:27.935
+!MESSAGE execute
+!STACK 0
+org.eclipse.core.commands.ExecutionException: While executing the operation, an exception occurred
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:504)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gef.tools.AbstractConnectionCreationTool.handleCreateConnection(AbstractConnectionCreationTool.java:260)
+	at org.eclipse.gef.tools.ConnectionCreationTool.handleButtonDown(ConnectionCreationTool.java:74)
+	at org.eclipse.gef.tools.AbstractTool.mouseDown(AbstractTool.java:1051)
+	at org.eclipse.gef.EditDomain.mouseDown(EditDomain.java:230)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMousePressed(DomainEventDispatcher.java:366)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDown(LightweightSystem.java:543)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:196)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.sirius.diagram.DSemanticDiagram.getDescription()" because "parentDDiagram" is null
+	at org.eclipse.sirius.diagram.business.internal.helper.task.operations.CreateViewTask.createEdgeView(CreateViewTask.java:219)
+	at org.eclipse.sirius.diagram.business.internal.helper.task.operations.CreateViewTask.createView(CreateViewTask.java:152)
+	at org.eclipse.sirius.diagram.business.internal.helper.task.operations.CreateViewTask.execute(CreateViewTask.java:116)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	... 39 more
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 13:50:45.277
+!MESSAGE Compilation error for expression [sourceView/] : Unrecognized variable: (sourceView)
+
+!ENTRY org.eclipse.gmf.runtime.diagram.ui 4 4 2024-12-17 13:50:45.280
+!MESSAGE execute
+!STACK 0
+org.eclipse.core.commands.ExecutionException: While executing the operation, an exception occurred
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:504)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:73)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.DDiagramCommandStack.execute(DDiagramCommandStack.java:54)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:145)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:410)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:422)
+	at org.eclipse.gef.tools.AbstractConnectionCreationTool.handleCreateConnection(AbstractConnectionCreationTool.java:260)
+	at org.eclipse.gef.tools.ConnectionCreationTool.handleButtonDown(ConnectionCreationTool.java:74)
+	at org.eclipse.gef.tools.AbstractTool.mouseDown(AbstractTool.java:1051)
+	at org.eclipse.gef.EditDomain.mouseDown(EditDomain.java:230)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMousePressed(DomainEventDispatcher.java:366)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDown(LightweightSystem.java:543)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:196)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5855)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5065)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4517)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.sirius.diagram.DSemanticDiagram.getDescription()" because "parentDDiagram" is null
+	at org.eclipse.sirius.diagram.business.internal.helper.task.operations.CreateViewTask.createEdgeView(CreateViewTask.java:219)
+	at org.eclipse.sirius.diagram.business.internal.helper.task.operations.CreateViewTask.createView(CreateViewTask.java:152)
+	at org.eclipse.sirius.diagram.business.internal.helper.task.operations.CreateViewTask.execute(CreateViewTask.java:116)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.executeTask(ExecuteToolOperationTask.java:119)
+	at org.eclipse.sirius.business.internal.helper.task.ExecuteToolOperationTask.execute(ExecuteToolOperationTask.java:108)
+	at org.eclipse.sirius.business.api.helper.task.TaskExecutor.execute(TaskExecutor.java:66)
+	at org.eclipse.sirius.tools.api.command.SiriusCommand.doExecute(SiriusCommand.java:82)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:130)
+	at org.eclipse.sirius.diagram.ui.tools.api.command.GMFCommandWrapper.doExecuteWithResult(GMFCommandWrapper.java:104)
+	at org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand.doExecute(AbstractTransactionalCommand.java:248)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:145)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.sirius.diagram.ui.tools.internal.commands.WrappingCommandIgnoringAffectedFiles.execute(WrappingCommandIgnoringAffectedFiles.java:125)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	... 39 more
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 13:50:57.910
+!MESSAGE Compilation error for expression [source/] : Unrecognized variable: (source)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 13:50:57.920
+!MESSAGE Compilation error for expression [target/] : Unrecognized variable: (target)
+!SESSION 2024-12-17 13:54:52.390 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.12
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -product org.eclipse.epp.package.modeling.product -data /home/mki5633/Annee_2/IDM_Projet_Copy/Projet_IDM/../runtime-EclipseApplication -dev file:/home/mki5633/Annee_2/IDM_Projet_Copy/Projet_IDM/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os linux -ws gtk -arch x86_64 -consoleLog
+
+!ENTRY org.eclipse.ui.navigator 4 0 2024-12-17 13:56:21.273
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "P/fr.n7.examples". Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+!SESSION 2024-12-17 14:10:16.296 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.11
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -product org.eclipse.epp.package.modeling.product -data /home/mki5633/Annee_2/IDM_Projet_Copy/Projet_IDM/../runtime-EclipseApplication -dev file:/home/mki5633/Annee_2/IDM_Projet_Copy/Projet_IDM/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os linux -ws gtk -arch x86_64 -consoleLog
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-12-17 14:10:22.803
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2024-12-17 15:01:02.331 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.11
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -product org.eclipse.epp.package.modeling.product -data /home/mki5633/Annee_2/IDM_Projet_Copy/Projet_IDM/../runtime-EclipseApplication -dev file:/home/mki5633/Annee_2/IDM_Projet_Copy/Projet_IDM/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os linux -ws gtk -arch x86_64 -consoleLog
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-12-17 15:01:07.426
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2024-12-17 15:30:36.834 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.11
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -product org.eclipse.epp.package.modeling.product -data /home/mki5633/Annee_2/IDM_Projet_Copy/Projet_IDM/../runtime-EclipseApplication -dev file:/home/mki5633/Annee_2/IDM_Projet_Copy/Projet_IDM/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os linux -ws gtk -arch x86_64 -consoleLog
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 15:36:41.880
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 15:37:27.536
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 15:39:50.938
+!MESSAGE Compilation error for expression [source/] : Unrecognized variable: (source)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 15:39:50.944
+!MESSAGE Compilation error for expression [target/] : Unrecognized variable: (target)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 16:02:29.557
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 16:02:41.725
+!MESSAGE Compilation error for expression [container/] : Unrecognized variable: (container)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 16:03:14.351
+!MESSAGE Compilation error for expression [source/] : Unrecognized variable: (source)
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2024-12-17 16:03:14.357
+!MESSAGE Compilation error for expression [target/] : Unrecognized variable: (target)

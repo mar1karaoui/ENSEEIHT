@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="gstock" version="12.0.0.2017041100">
+  <ownedViewpoints name="GStockViewpoint" modelFileExtension="gstock">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="ApplicationDiagram" domainClass="gstock::Application" enablePopupBars="true">
+      <metamodel href="http://gstock#/"/>
+      <defaultLayer name="Default">
+        <edgeMappings name="OperandeEdge" sourceMapping="//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subContainerMappings[name='CDContainer']/@subContainerMappings[name='ExpressionContainer']/@subNodeMappings[name='AVNode']" targetMapping="//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CSNode'] //@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CRNode'] //@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subContainerMappings[name='CDContainer']" targetFinderExpression="[colonne/]">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="CREdge" sourceMapping="//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CRNode']" targetMapping="//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CSNode'] //@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CRNode'] //@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subContainerMappings[name='CDContainer']" targetFinderExpression="[colonne/]">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="CRTEdge" sourceMapping="//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CRNode']" targetMapping="//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']" targetFinderExpression="[table/]">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="TableContainer" domainClass="gstock::Table">
+          <subNodeMappings name="CSNode" semanticCandidatesExpression="feature:eAllContents" domainClass="gstock::Colonnesimple">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="feature:Nom" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="CRNode" semanticCandidatesExpression="feature:eAllContents" domainClass="gstock::Colonne_referencee">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="feature:Nom" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+            </style>
+          </subNodeMappings>
+          <subContainerMappings name="CDContainer" semanticCandidatesExpression="feature:eAllContents" domainClass="gstock::Colonne_derivee">
+            <subContainerMappings name="ExpressionContainer" semanticCandidatesExpression="feature:eAllContents" domainClass="gstock::ExpressionBinaire">
+              <subNodeMappings name="OPNode" semanticCandidatesExpression="feature:eAllContents" domainClass="gstock::Operateur">
+                <style xsi:type="style:EllipseNodeDescription" labelSize="12" labelExpression="feature:type" labelPosition="node" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_orange']"/>
+                </style>
+              </subNodeMappings>
+              <subNodeMappings name="AVNode" semanticCandidatesExpression="feature:eAllContents" domainClass="gstock::AccesVariable">
+                <style xsi:type="style:EllipseNodeDescription" labelSize="12" labelExpression="feature:Nom" labelPosition="node" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+                </style>
+              </subNodeMappings>
+              <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="feature:Nom">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+              </style>
+            </subContainerMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="feature:Nom">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="feature:Nom">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="OutilsSection">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="TableCreation" containerMappings="//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']">
+            <variable name="Application"/>
+            <viewVariable name="ApplicationDiagram"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="gstock::Table" referenceName="tables" variableName="Tablecontainer"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CSCreation" nodeMappings="//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CSNode']">
+            <variable name="Table"/>
+            <viewVariable name="TableDiagram"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="gstock::Colonnesimple" referenceName="colonnes" variableName="CS"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CRCreation" nodeMappings="//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subNodeMappings[name='CRNode']">
+            <variable name="Table"/>
+            <viewVariable name="TableDiagram"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="gstock::Colonne_referencee" referenceName="colonnes" variableName="CR"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="CDCreation" containerMappings="//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subContainerMappings[name='CDContainer']">
+            <variable name="Table"/>
+            <viewVariable name="TableDiagram"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="gstock::Colonne_derivee" referenceName="colonnes" variableName="CD"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="ExpressionCreation" containerMappings="//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@containerMappings[name='TableContainer']/@subContainerMappings[name='CDContainer']/@subContainerMappings[name='ExpressionContainer']">
+            <variable name="Colonne_derivee"/>
+            <viewVariable name="CDDiagram"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="fr.n7.gstock.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

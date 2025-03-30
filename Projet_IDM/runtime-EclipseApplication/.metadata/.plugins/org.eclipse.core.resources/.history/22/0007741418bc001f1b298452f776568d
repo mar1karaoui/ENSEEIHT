@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:gstock="http://gstock" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_YQ3JILs8Ee-r2e3YoEwuOw" selectedViews="_UTLj4LtCEe-r2e3YoEwuOw" version="15.2.0.202303281325">
+    <semanticResources>tables.gstock</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_UTLj4LtCEe-r2e3YoEwuOw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_E49fQrwLEe-RZ4dM7AoSwQ" name="new ApplicationDiagram" repPath="#_E49fQLwLEe-RZ4dM7AoSwQ" changeId="1734395694661">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']"/>
+        <target xmi:type="gstock:Application" href="tables.gstock#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_c77osrwOEe-RZ4dM7AoSwQ" name="new ApplicationDiagram1" repPath="#_c77osLwOEe-RZ4dM7AoSwQ" changeId="1734395572925">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']"/>
+        <target xmi:type="gstock:Application" href="tables.gstock#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_E49fQLwLEe-RZ4dM7AoSwQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_E49fRLwLEe-RZ4dM7AoSwQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_E49fRbwLEe-RZ4dM7AoSwQ" type="Sirius" element="_E49fQLwLEe-RZ4dM7AoSwQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_gAFWMLwOEe-RZ4dM7AoSwQ" type="2001" element="_gAAdsLwOEe-RZ4dM7AoSwQ">
+          <children xmi:type="notation:Node" xmi:id="_gAF9QLwOEe-RZ4dM7AoSwQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_gAF9QbwOEe-RZ4dM7AoSwQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gAGkULwOEe-RZ4dM7AoSwQ" type="3016" element="_gABr0LwOEe-RZ4dM7AoSwQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_gAGkUbwOEe-RZ4dM7AoSwQ" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gAGkUrwOEe-RZ4dM7AoSwQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_gAFWMbwOEe-RZ4dM7AoSwQ" fontName="Ubuntu" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gAFWMrwOEe-RZ4dM7AoSwQ" x="270" y="100" width="141" height="101"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_vExdYLwOEe-RZ4dM7AoSwQ" type="2001" element="_vEOq0LwOEe-RZ4dM7AoSwQ">
+          <children xmi:type="notation:Node" xmi:id="_vExdY7wOEe-RZ4dM7AoSwQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vExdZLwOEe-RZ4dM7AoSwQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vEyEcrwOEe-RZ4dM7AoSwQ" type="3016" element="_vEOq0bwOEe-RZ4dM7AoSwQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vEyEc7wOEe-RZ4dM7AoSwQ" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEyEdLwOEe-RZ4dM7AoSwQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vExdYbwOEe-RZ4dM7AoSwQ" fontName="Ubuntu" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vExdYrwOEe-RZ4dM7AoSwQ" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_vExdZbwOEe-RZ4dM7AoSwQ" type="2001" element="_vEOq07wOEe-RZ4dM7AoSwQ">
+          <children xmi:type="notation:Node" xmi:id="_vEyEcLwOEe-RZ4dM7AoSwQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyEcbwOEe-RZ4dM7AoSwQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vEyEdbwOEe-RZ4dM7AoSwQ" type="3016" element="_vEPR4LwOEe-RZ4dM7AoSwQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vEyEdrwOEe-RZ4dM7AoSwQ" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEyEd7wOEe-RZ4dM7AoSwQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vExdZrwOEe-RZ4dM7AoSwQ" fontName="Ubuntu" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vExdZ7wOEe-RZ4dM7AoSwQ" x="90" width="30" height="30"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_E49fRrwLEe-RZ4dM7AoSwQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_E4-GULwLEe-RZ4dM7AoSwQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_E4-GUbwLEe-RZ4dM7AoSwQ"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_gAAdsLwOEe-RZ4dM7AoSwQ" name="CRef" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="gstock:Colonne_referencee" href="tables.gstock#13"/>
+      <semanticElements xmi:type="gstock:Colonne_referencee" href="tables.gstock#13"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_gABr0LwOEe-RZ4dM7AoSwQ" labelSize="12" labelPosition="node" color="138,226,52">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@nodeMappings[name='CRNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@nodeMappings[name='CRNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_vEOq0LwOEe-RZ4dM7AoSwQ" name="Nom" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="gstock:Colonnesimple" href="tables.gstock#11"/>
+      <semanticElements xmi:type="gstock:Colonnesimple" href="tables.gstock#11"/>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_vEOq0bwOEe-RZ4dM7AoSwQ" labelSize="12" labelPosition="node">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@nodeMappings[name='CSNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@nodeMappings[name='CSNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_vEOq07wOEe-RZ4dM7AoSwQ" name="Prix" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="gstock:Colonnesimple" href="tables.gstock#12"/>
+      <semanticElements xmi:type="gstock:Colonnesimple" href="tables.gstock#12"/>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_vEPR4LwOEe-RZ4dM7AoSwQ" labelSize="12" labelPosition="node">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@nodeMappings[name='CSNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer/@nodeMappings[name='CSNode']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_E49fQbwLEe-RZ4dM7AoSwQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer"/>
+    <target xmi:type="gstock:Application" href="tables.gstock#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_c77osLwOEe-RZ4dM7AoSwQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_c78PwLwOEe-RZ4dM7AoSwQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_c78PwbwOEe-RZ4dM7AoSwQ" type="Sirius" element="_c77osLwOEe-RZ4dM7AoSwQ" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_c78PwrwOEe-RZ4dM7AoSwQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_c7820LwOEe-RZ4dM7AoSwQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_c7820bwOEe-RZ4dM7AoSwQ"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_c77osbwOEe-RZ4dM7AoSwQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer"/>
+    <target xmi:type="gstock:Application" href="tables.gstock#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

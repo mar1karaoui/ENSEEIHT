@@ -1,0 +1,85 @@
+Application {
+
+Table Table1 {
+
+id = 1
+
+Nom = "TableDesEmployes"
+
+
+
+Colonnesimple ColonneNomEmploye {
+
+id = 101
+
+Nom = "NomEmploye"
+
+}
+
+
+
+Colonne_derivee ColonneSalaireAnnuel {
+
+id = 102
+
+Nom = "SalaireAnnuel"
+
+expression = ExpressionBinaire ExpSalaireCalcul {
+
+operandeG = AccesVariable VarNomEmploye {
+
+colonne = ColonneNomEmploye
+
+}
+
+operateur = Operateur {
+
+type = addition
+
+}
+
+operandeD = AccesVariable VarNomEmployeBis {
+
+colonne = ColonneNomEmploye
+
+}
+
+}
+
+}
+
+}
+
+
+Table Table2 {
+
+id = 2
+
+Nom = "TableDesDepartements"
+
+
+Colonnesimple ColonneNomDepartement {
+
+id = 201
+
+Nom = "NomDepartement"
+
+}
+
+
+
+Colonne_referencee ColonneRefEmployes {
+
+id = 202
+
+Nom = "RefTableEmployes"
+
+table = Table1
+
+colonne = ColonneNomDepartement
+
+}
+
+}
+
+}

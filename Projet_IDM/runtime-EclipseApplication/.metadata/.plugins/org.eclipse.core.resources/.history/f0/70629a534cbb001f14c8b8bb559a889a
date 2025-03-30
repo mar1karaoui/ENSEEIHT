@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:gstock="http://gstock" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description">
+  <viewpoint:DAnalysis uid="_YQ3JILs8Ee-r2e3YoEwuOw" selectedViews="_UTLj4LtCEe-r2e3YoEwuOw" version="15.2.0.202303281325">
+    <semanticResources>tables.gstock</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_UTLj4LtCEe-r2e3YoEwuOw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_6jPE0rtKEe-r2e3YoEwuOw" name="new ApplicationDiagram" repPath="#_6jPE0LtKEe-r2e3YoEwuOw" changeId="1734311590303">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']"/>
+        <target xmi:type="gstock:Application" href="tables.gstock#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_8VhFUbtLEe-r2e3YoEwuOw" name="new ApplicationDiagram" repPath="#_8VgeQLtLEe-r2e3YoEwuOw" changeId="1734312031783">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']"/>
+        <target xmi:type="gstock:Application" href="tables.gstock#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_6jPE0LtKEe-r2e3YoEwuOw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_6jPr4LtKEe-r2e3YoEwuOw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_6jPr4btKEe-r2e3YoEwuOw" type="Sirius" element="_6jPE0LtKEe-r2e3YoEwuOw" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_6jPr4rtKEe-r2e3YoEwuOw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_6jPr47tKEe-r2e3YoEwuOw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_6jPr5LtKEe-r2e3YoEwuOw"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_6jPE0btKEe-r2e3YoEwuOw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer"/>
+    <target xmi:type="gstock:Application" href="tables.gstock#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_8VgeQLtLEe-r2e3YoEwuOw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_8VhFU7tLEe-r2e3YoEwuOw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_8VhFVLtLEe-r2e3YoEwuOw" type="Sirius" element="_8VgeQLtLEe-r2e3YoEwuOw" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_8VhFVbtLEe-r2e3YoEwuOw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_8VhsYLtLEe-r2e3YoEwuOw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_8VhsYbtLEe-r2e3YoEwuOw"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_8VhFULtLEe-r2e3YoEwuOw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/fr.n7.gstock.design/description/gstock.odesign#//@ownedViewpoints[name='GStockViewpoint']/@ownedRepresentations[name='ApplicationDiagram']/@defaultLayer"/>
+    <target xmi:type="gstock:Application" href="tables.gstock#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
