@@ -88,7 +88,6 @@ Et aux administrateurs de :
 ---
 
 ## 🛠️ Stack technique (prévisionnelle)
-> À adapter selon vos choix techniques
 
 - Frontend : TypeScript / Angular  
 - Backend : Java / Spring-Boot  
